@@ -12,5 +12,5 @@ jobs:
         id: hello
         with:
           who-to-greet: 'mona the Octocat'
-      - name: fet the output line
+      - name: get the output line
       run: echo "The time was ${{ steps.hello.outputs.time}}'
